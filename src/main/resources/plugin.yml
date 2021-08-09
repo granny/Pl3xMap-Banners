@@ -1,0 +1,13 @@
+name: Pl3xMap-Banners
+version: ${project.version}
+main: dev.granny.pl3xmapbanners.BannersPlugin
+api-version: 1.16
+authors: [ BillyGalbreath, granny ]
+description: Banners addon for Pl3xMap
+softdepend:
+  - Pl3xMap
+
+permissions:
+  pl3xmap.banners.admin:
+    description: Allow controlling the plugin
+    default: op
